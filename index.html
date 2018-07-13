@@ -95,7 +95,6 @@
           <a href="javascript: readIMG()" class="button">Decrypt</a>&nbsp;
         </div>
       </form>
-
       <h4>Output</h4>
       <p>
         <div id="result"></div>
@@ -104,12 +103,9 @@
         <img id="resultimg" />
         <button id="download">Download</button>
       </p>
-
-
-
     </div>
-
   </div>
+
   <script>
     document.addEventListener('DOMContentLoaded', () => {
       let message = document.querySelector('#message'),
@@ -147,10 +143,7 @@
 
 
   <script type="text/javascript" src="js/jquery.min.js"></script>
-  <!--jQuery is not required by the library. We use it in DEMO page-->
-  <!-- CryptoStego JS files.-->
   <script type="text/javascript" src="js/stego.js"></script>
-  <!-- above scripts equivalent to <script type="text/javascript" src="cryptostego.min.js"></script>-->
   <script type="text/javascript">
     function writeIMG() {
       $("#resultimg").hide();
